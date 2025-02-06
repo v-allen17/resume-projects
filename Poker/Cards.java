@@ -1,6 +1,5 @@
 // Card.java
 // Victoria Allen
-// vca2102
 // This program creates cards for the deck class
 
 public class Card implements Comparable<Card>{
