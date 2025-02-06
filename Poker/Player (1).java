@@ -1,10 +1,9 @@
 // Player.java
 // Victoria Allen
-// vca2102
 // This program controls everything that has to
 // with how much the player bets, wins, loses, 
 // and the amount in the bank. It is basically
-// a simulated bank account for the game. 
+// a simulated bank account for the game.
 
 public class Player {
 			
