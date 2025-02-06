@@ -1,4 +1,4 @@
-// Card.java
+// Cards.java
 // Victoria Allen
 // This program creates cards for the deck class
 
