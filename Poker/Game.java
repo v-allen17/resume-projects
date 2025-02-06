@@ -1,9 +1,7 @@
 // Game.java
 // Victoria Allen
-// vca2102
 // This program impliments the actual game part 
-// of the poker game. It follows the directions
-// in the README.md.
+// of the poker game.
 
 import java.util.ArrayList;
 import java.util.Scanner;
