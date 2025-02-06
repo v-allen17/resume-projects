@@ -1,11 +1,8 @@
-/**
- * This class represents a computer
- * player in the Odd-Even game
+/** * This class represents a computer
+ * player in the Odd and Even game
  *
  * ComputerPlayer.java
- *
- * name: Victoria Allen
- * uni: vca2102
+ *Victoria Allen
  *  
  */
 import java.util.Random;
