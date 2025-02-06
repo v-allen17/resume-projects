@@ -1,6 +1,5 @@
 // Deck.java
 // Victoria Allen
-// vca2102
 // This program simulates all the functions of a deck for
 // a poker game like shuffling and dealing
 
