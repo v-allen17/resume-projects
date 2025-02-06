@@ -1,6 +1,6 @@
-//PokerTest.java
+// PokerTest.java
 // Victoria Allen
-//Test Case
+// Test Case
 
 public class PokerTest{
  
