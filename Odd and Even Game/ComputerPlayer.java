@@ -1,27 +1,21 @@
-/** * This class represents a computer
- * player in the Odd and Even game
- *
- * ComputerPlayer.java
- *Victoria Allen
- *  
- */
+// This class represents a computer
+// player in the Odd and Even game
+// ComputerPlayer.java
+// Victoria Allen
+
 import java.util.Random;
 
 public class ComputerPlayer{
     private double t;
-    private int tokenBalance; //ONLY PLACE YOU SHOULD TRACK COMPUTER TOKENS!
+    private int tokenBalance;
     private double compT;
     
-    /* no-argument constructor for the ComputerPlayer
-       This is meant for Part 1 */
     public ComputerPlayer(){
 
         t = 0.5;
         tokenBalance = 0;
     }
     
-    /* Speicfy the desired strategy in this constructor
-       This is meant for Part 2 */
     public ComputerPlayer(double threshold){
         compT = threshold;
     }
