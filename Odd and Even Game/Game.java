@@ -1,17 +1,7 @@
-/**
- * Game.java
- *
- * name: Victoria Allen
- * uni: vca2102
- *
- * This class represents the Odd-Even game
- * This program runs the odd even game
- * for both a human vs. computer 
- * and computer vs. computer.
- * It follows the instructions
- * of the assignment.
- * 
- */
+// Game.java
+// Victoria Allen
+// This class represents the game
+
 import java.util.Scanner;
 
 public class Game{
@@ -28,10 +18,7 @@ public class Game{
     private int computer2Tokens;
     private double valueOne;
     private double valueTwo;
-    
-/* this version of the game constructor is for Part 1
- * it takes no parameters 
- */  
+     
     public Game(){
 
         computerPlayer = new ComputerPlayer();
@@ -59,22 +46,11 @@ public class Game{
         }
     }
     
-/* this version of the game constructor is for Part 2
- * It requires two doubles as parameters. You will use 
- * these to set the initial thresholds for you computer players 
- */
     public Game (double t1, double t2){
         valueOne = t1;
         valueTwo = t2;
     }
 
-
-    
-/* 
-* This method is for Part 1
-* This method should play one complete interactive session
-* of odd-even until the user wishes to quit. 
-*/
     public void playSession(){
         Scanner scanner = new Scanner(System.in);
 
@@ -117,12 +93,6 @@ public class Game{
     
     }
     
-    
-/*
- * This method is for Part 2
- * It takes a single int as a parameter which is the
- * number of computer vs. computer games that should be played 
- */
     public void play(int games){
         for (int i = 0; i < games; i++){
             ComputerPlayer playerOne = new ComputerPlayer(valueOne);
@@ -143,14 +113,14 @@ public class Game{
         }
     }
 
-/* this method should return the current score (number of tokens)
+/* this method returns the current score (number of tokens)
  * that player 1 has 
  */
     public int getP1Score(){
         return computer1Tokens;      
     }
     
-/* this method should return the current score (number of tokens)
+/* this method returns the current score (number of tokens)
  * that player 2 has
  */
     public int getP2Score(){
@@ -158,7 +128,6 @@ public class Game{
     }  
     
     
-    // you may or may not want more methods here:
     // This method determines if the player is 
     // the odd or even player
     
